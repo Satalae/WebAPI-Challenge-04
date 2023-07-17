@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Code Quiz</title>
+        <link rel="stylesheet" href="assets/style.css" />
+    </head>
+
+    <body>
+        <header>
+            <button class="score-button">Check Highscores</button>
+            <h1 class="timer">Time: <span class="timer-block">0</span></h1>
+        </header>
+
+        <main>
+            <div class="intro">
+                <h2>Coding Quiz Challenge</h2>
+                <p>
+                    Welcome to a HTML/CSS/JS Quiz! This challenge will give you 60 seconds to answer as many
+                    questions as you can, with 5 seconds being deducted for each wrong answer. If you finish
+                    the quiz early, points will be added based on the remaining time.
+                </p>
+                <button class="start-button">Start</button>
+            </div>
+
+            <div class="quiz" hidden="true">
+                <p class="question"></p>
+                <button class="button1"></button>
+                <button class="button2"></button>
+                <button class="button3"></button>
+                <button class="button4"></button>
+            </div>
+
+            <div class="score-screen" hidden= "true">
+                <h2>Well Done!</h2>
+                <h3>
+                    Your final score is: <span class="score"></span>
+                </h3>
+                <label for="name">Please, enter your name here to submit your score: </label>
+                <input type="text" id="name" name="name">
+                <button class="submit-button">Submit Score</button>
+                <button class="return-button">Return to Start</button>
+            </div>
+
+            <div class="score-board" hidden="true">
+                <h2>High Scores</h2>
+
+                <ul class="high-scores">
+                    
+                </ul>
+                
+                <button class="return-button">Return to Start</button>
+                <button class="reset-button">Reset Scores</button>
+            </div>
+        </main>
+
+        <script src="assets/script.js"></script>
+    </body>
+</html>

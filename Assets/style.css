@@ -1,0 +1,56 @@
+* {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 99%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+h1.timer{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    border-bottom: 2px solid #000000;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 25px;
+}
+
+button {
+    background: #7a16d8;
+    color: white;
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+.score-button {
+    margin: 20px;
+    padding: 10px
+}
+
+.start-button {
+    padding: 8px 25px;
+}
